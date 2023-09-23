@@ -1,7 +1,8 @@
 import React from 'react'
 import { Footer,Header,WhatGPT3,Blog,Possibility,Features } from './containers'
-import {Brand,CTA,Navbar} from './components'
-
+import Brand from './components/brand/Brand2'
+import CTA from './components/cta/CTA2'
+import Navbar from './components/navbar/Navbar'
 const App = () => {
   return (
     <div className='App'>
